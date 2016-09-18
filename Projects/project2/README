@@ -1,0 +1,26 @@
+Gerald Trotman
+CSCI E-28
+geraldtrotman@fas.harvard.edu
+
+           Assignment 2: pfind
+
+1. My submission includes pfind, a makefile, typescript, and an outline of my
+plan for the assignment.
+
+2. The 3 examples of tools I chose that process directories are: dir, grep, and zip.
+
+Using "dir -R dir_name" will recursively list the contents of a directory and its
+sub-directories.
+
+Using "grep -r pattern dir_name" will recursively searcch the files in
+dir_name and its sub-directories for lines containing a match for pattern.
+
+Using "zip -r foo dir_name" will recursively save all the files and sub-directories in
+dir_name into a zip archive called foo.zip.
+
+3. One possible way to circumvent the file limit would be to maintain a linked list of
+structs. These structs would consist of a pointer to a struct dirent and a
+pointer to the struct for the next sub-directory. That way, if the resource
+limit is reached, the linked list would have the information necessary to
+continue the operation.
+

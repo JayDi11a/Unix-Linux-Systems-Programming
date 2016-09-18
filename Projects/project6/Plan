@@ -1,0 +1,52 @@
+Project: wsng 
+
+Purpose: Better mimic a web server based on the required secifications. 
+
+Outline:
+	The project requires improving on the simple web server that 
+	was given. The server already supported the GET command but not for
+	how a true web browser handles a HEAD. Support for a head request via
+	a boolean value was passed on to the corresponding functions. The server 
+	name and a date to the header information supplied by the server were also 
+	added. The date was added using a combination of the rfc822_time function 
+	in web-time.c and the builtin time system call. The way the server handled 
+	file types needed to be changed. Information for supported file types
+	were placed in the wsng.conf file where it is now read into a table 
+	by the server at start-up. Links in the directory listing were handled by using
+	stat to iterate through the directory information and wrap everythnig in the
+	appropriate html format. Additional functions to check the directory for 
+	the presence of index.html or index.cgi function before proceeding to do 
+	the generic directory listing were added. A 403 Forbidden error was added 
+	to handle the nox file. SIG_IGN overload method was used to prevent zombie 
+	processes. Support for handling query strings to the modify_argument function 
+	also needed to be added.
+
+Output:
+	Output to the client is fed directly to a socket and displayed 
+	by browser window and/or telnet/other terminal output.
+
+Arguments:
+	The program can take optional input specified in the configuration file.
+
+Input:
+	The server takes HTTP requests and responds accordingly. 
+
+Data Structures:
+	The server uses the same data structures that were present in the ws server 
+	given in an attempt to stick to script.
+
+	In order to support the table driven approach to handling content types
+	a global linked list of type struct ec (extensions/content) was created. 
+	The struct is comprised of two strings and a pointer to the next entry. 
+	The strings hold the names of the extension and the content type. Upon 
+	server start-up, information about the supported content types are read 
+	from the configuration file and stored.
+
+	In order to support the HEAD method, I created a boolean value is_head 
+	which is passed to the output functions. This allows them to optionally stop
+	execution after displaying the header information if is_head is set.
+
+Files:
+        The program uses the wsng.conf file as its default configuration file. 
+	It fails on start-up if the file is not found/provided.
+

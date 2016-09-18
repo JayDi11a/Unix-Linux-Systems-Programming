@@ -1,0 +1,1191 @@
+Script started on Sat 12 Mar 2016 08:48:11 PM EST
+geraldtrotman@ice4:~/cscie28/Projects/project3$ .s[K[K./sttyl
+speed 9600 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl echo echoe 
+opost icanon isig 
+geraldtrotman@ice4:~/cscie28/Projects/project3$  Ìƒlib215/hw/stty/test.stty[1Plib215/hw/stty/test.stty~lib215/hw/stty/test.stty
+   0. Looking at output : tf should examine this 
+ 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+ 
+   I. testing erase and kill chars  
+        a. Simple chars .. speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = A; kill = B; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+/bin/stty: standard input: unable to perform all requested operations
+OK
+ 
+	c. Typical one-char control chars.. speed 9600 baud; rows 63; cols 106
+intr = ^C; erase = X; kill = Y; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl echo echoe 
+opost icanon isig 
+speed 9600 baud; rows 63; cols 106
+intr = ^C; erase = ^H; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl echo echoe 
+opost icanon isig 
+OK
+ 
+	d. No argument given to erase..speed 9600 baud; rows 63; cols 106
+intr = ^C; erase = ^H; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl echo echoe 
+opost icanon isig 
+Segmentation fault
+Not OK
+		Did not work correctly when no arg is given to erase
+ 
+./sttyl did not pass erase/kill test.  Continue (y/n)? y
+  III. Checking each flag separately .. 
+		icrnl .. speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+-icrnl -hupcl echo echoe 
+opost icanon isig 
+ OK 
+                hupcl .. speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+ OK 
+                echo .. speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl -echo echoe 
+opost icanon isig 
+ OK 
+                echoe .. speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo -echoe 
+opost icanon isig 
+ OK 
+                opost .. speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+-opost icanon isig 
+ OK 
+		icanon .. speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost -icanon isig 
+ OK 
+                isig .. speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon -isig 
+ OK 
+ 
+ IV. Checking all flag pairs
+ icrnl:speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+-icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl -echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo -echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+-opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost -icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon -isig 
+OK hupcl:speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+-icrnl hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl -echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl echo -echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl echo echoe 
+-opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl echo echoe 
+opost -icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl echo echoe 
+opost icanon -isig 
+OK echo:speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+-icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl -echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo -echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+-opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost -icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon -isig 
+OK echoe:speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+-icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl -echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo -echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+-opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost -icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon -isig 
+OK opost:speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+-icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl -echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo -echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+-opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost -icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon -isig 
+OK icanon:speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+-icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl -echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo -echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+-opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost -icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon -isig 
+OK isig:speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+-icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl -echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo -echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+-opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost -icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon isig 
+speed 38400 baud; rows 63; cols 106
+intr = ^C; erase = ^¿; kill = ^U; start = ^Q; stop = ^S
+werase = ^W; 
+icrnl -hupcl echo echoe 
+opost icanon -isig 
+OK/bin/stty: standard input: unable to perform all requested operations
+ 
+	Checking results .. 
+all tests worked correctly
+resetting tty
+geraldtrotman@ice4:~/cscie28/Projects/project3$ exit
+exit
+
+Script done on Sat 12 Mar 2016 08:48:52 PM EST

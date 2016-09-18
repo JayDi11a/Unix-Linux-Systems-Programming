@@ -1,0 +1,34 @@
+
+Project: alastlog 
+
+Purpose: A program to display the contents of a utmp file in human-readable form displaying the last login	   of either a specified user or all the contents from the lastlog binary file.
+
+Outline:
+	alastlog reads the utmp file record by record and 
+        presents the contents in human-readable form.  The
+        form of output is one line per record with fixed-width fields,
+        all in text.
+        dumputmp uses read to get data from the file, and uses
+        printf to format and output results.
+
+Output:
+	The output looks like:
+        logname, tty, pid, type, text version of type, time, host
+
+Arguments:
+	alastlog accepts up to 4 command line argument, which are a sequnce of -u flag followed by the
+	specific user name or -t flag follwed by the days a user may have been on last, or the -f flag
+	followed by the binary file and any combination of the other flag options.
+
+Input:
+        alastlog does not accept any user input; the datafile is the
+        only source of input
+
+Data Structures:
+        alastlog reads and writes one record at a time.  It only needs
+        to store a single record, so one variable of type struct utmp
+        is used.
+
+Files:
+       	alastlog reads a file of utmp records.  See Arguments and Input
+        secti

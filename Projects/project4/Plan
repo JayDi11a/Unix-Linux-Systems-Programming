@@ -1,0 +1,59 @@
+Purpose: A program, pong is an interactive game designed to prevent a ball of random 
+	 velocity from going out of play for as long as possible.
+Outline:
+	The program consists of a ball that bounces around inside of a three sided 
+	boundary. There is a user-controlled paddle attempts to keep it bouncing
+	around in play. The program blocks on user input and uses this input 
+	to control the paddle on the right edge. The 'k' key moves the paddle up. 
+	The 'm' key moves the paddle down. The 'shift + q' keys quit the game. 
+	The velocity of the ping pong ball is determined by a random function 
+	generator. When The number of balls goes out of play, the number of balls
+	left are decremented until there are none left.
+
+Output:
+	Because this is an interactive game, all outputs are sent to the screen. 
+	Before writing to the screen, the current position of the curson is
+	saved, and then returned to its default position. This is done to account 
+	for race conditions and/or interrupts that would otherwise result in writes 
+	to the wrong screen location.
+
+Arguments:
+	The program does not accept any arguments.
+
+Input:
+        The program gets user input from the 'k', 'm', and 'shift + q' 
+	keys that are used to play or quit the game. When a ball goes 
+	out of play, the game blocks on user input before continuing to serve
+	the next ball.
+
+Data Structures:
+	The program uses three different data structures. The struct ppball is used for 
+	the ball object. It's comprised of a position, a direction, a delay, and a count, 
+	for both x and y that are used to control both the ball's position and velocity:
+	
+	struct ppball {
+		int  x_pos,   x_dir, 
+		     y_pos,   y_dir,
+		     y_delay, y_count,
+		     x_delay, x_count;
+		char symbol; 
+	};
+	
+	The struct ptime is used for the game clock. It's comprised of an integer
+	for the hour, minutes, and seconds:
+	
+	struct ptime {
+		int hr, min, sec, msec;
+	};
+	
+	The struct ppaddle is used for the paddle and holds values for its 
+	top, bottom, column, and character representation:
+	
+	struct ppaddle {
+		int  paddle_top, paddle_bottom, paddle_column;
+		char paddle_char;
+	}
+
+Files:
+        The program uses curses to access the terminal and monitor settings needed 
+	to control display game progress.

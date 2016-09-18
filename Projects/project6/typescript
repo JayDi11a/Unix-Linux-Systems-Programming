@@ -1,0 +1,48 @@
+Script started on Sat 30 Apr 2016 01:01:18 PM EDT
+geraldtrotman@ice4:~/cscie28/Projects/project6$ make wsng
+gcc -Wall    -c -o wsng.o wsng.c
+gcc -Wall -o wsng wsng.o socklib.o web-time.o
+geraldtrotman@ice4:~/cscie28/Projects/project6$ ./s[Kwsng
+wsng1 started.  host=ice4.fas.harvard.edu port=19331
+got a call: request = GET /dir1/ HTTP/1.1
+got a call: request = GET /dir1/file1.html HTTP/1.1
+got a call: request = GET /dir2/ HTTP/1.1
+got a call: request = GET /dir2/picture.jpeg HTTP/1.1
+got a call: request = GET /dir2/hello.c HTTP/1.1
+got a call: request = GET /dir2/hello.cgi HTTP/1.1
+got a call: request = GET /dir2/showcal.cgi HTTP/1.1
+got a call: request = GET /dir2/months.html HTTP/1.1
+got a call: request = GET /file1.html HTTP/1.1
+got a call: request = GET /file2.txt HTTP/1.1
+got a call: request = GET /file3.jpg HTTP/1.1
+got a call: request = GET /file4.gif HTTP/1.1
+got a call: request = GET /file_list.html HTTP/1.1
+got a call: request = GET /dir1 HTTP/1.1
+got a call: request = GET /file1.html HTTP/1.1
+got a call: request = GET /dir2 HTTP/1.1
+got a call: request = GET /file2.txt HTTP/1.1
+got a call: request = GET /file3.jpg HTTP/1.1
+got a call: request = GET /file4.gif HTTP/1.1
+got a call: request = GET /nox/ HTTP/1.1
+got a call: request = GET /file_list.html HTTP/1.1
+got a call: request = GET /file1.html HTTP/1.1
+got a call: request = GET /file_list.html HTTP/1.1
+got a call: request = GET /dir2/ HTTP/1.1
+got a call: request = GET /dir2/months.html HTTP/1.1
+got a call: request = GET /dir2/showcal.cgi?1 HTTP/1.1
+got a call: request = GET /dir2/showcal.cgi?2 HTTP/1.1
+got a call: request = GET /dir2/showcal.cgi?3 HTTP/1.1
+got a call: request = GET /dir2/showcal.cgi?4 HTTP/1.1
+got a call: request = GET /dir2/showcal.cgi?5 HTTP/1.1
+got a call: request = GET /dir2/showcal.cgi?6 HTTP/1.1
+got a call: request = GET /dir2/showcal.cgi?7 HTTP/1.1
+got a call: request = GET /dir2/showcal.cgi?8 HTTP/1.1
+got a call: request = GET /dir2/showcal.cgi?9 HTTP/1.1
+got a call: request = GET /dir2/showcal.cgi?10 HTTP/1.1
+got a call: request = GET /dir2/showcal.cgi?11 HTTP/1.1
+got a call: request = GET /dir2/showcal.cgi?12 HTTP/1.1
+^C
+geraldtrotman@ice4:~/cscie28/Projects/project6$ exit
+exit
+
+Script done on Sat 30 Apr 2016 01:04:10 PM EDT

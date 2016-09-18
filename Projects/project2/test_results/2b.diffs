@@ -1,0 +1,10 @@
+1c1
+< pft.d/cookie/cookie
+---
+> pft.d/.hiddendir/cookie
+2a3
+> pft.d/cookie/cookie
+4d4
+< pft.d/dir1/dir1c/cookie/cookie
+5a6
+> pft.d/dir1/dir1c/cookie/cookie

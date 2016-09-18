@@ -1,0 +1,35 @@
+Script started on Mon 16 Feb 2015 09:20:14 PM EST
+geraldtrotman@ice4:~/CSCIE28/Projects/project1/loginhist$ ls -l
+total 128
+lrwxrwxrwx 1 geraldtrotman extstu    44 Feb 12 15:06 dumputmp -> /home/l/i/lib215/hw/loginhist/files/dumputmp
+lrwxrwxrwx 1 geraldtrotman extstu    46 Feb 12 15:06 dumputmp.c -> /home/l/i/lib215/hw/loginhist/files/dumputmp.c
+-rwxr-xr-x 1 geraldtrotman extstu 13807 Feb 16 17:51 lastlogin
+-rw-r--r-- 1 geraldtrotman extstu  3672 Feb 16 20:54 lastlogin.c
+-rw-r--r-- 1 geraldtrotman extstu   920 Feb 16 20:29 Makefile
+-rw-r--r-- 1 geraldtrotman extstu  2388 Feb 15 15:21 myutmplib.c
+-rw-r--r-- 1 geraldtrotman extstu   136 Feb 15 15:30 myutmplib.h
+lrwxrwxrwx 1 geraldtrotman extstu    40 Feb 12 15:06 Plan -> /home/l/i/lib215/hw/loginhist/files/Plan
+-rw-r--r-- 1 geraldtrotman extstu  1161 Feb 16 21:10 PlanOutline
+-rw-r--r-- 1 geraldtrotman extstu   430 Feb 16 21:18 README
+-rw-r--r-- 1 geraldtrotman extstu     0 Feb 16 21:20 typescript
+lrwxrwxrwx 1 geraldtrotman extstu    45 Feb 12 15:06 utmplib.c -> /home/l/i/lib215/hw/loginhist/files/utmplib.c
+lrwxrwxrwx 1 geraldtrotman extstu    45 Feb 12 15:06 utmplib.h -> /home/l/i/lib215/hw/loginhist/files/utmplib.h
+-rw-r--r-- 1 geraldtrotman extstu  2664 Feb 12 15:15 utmplib.o
+-rwxr-xr-x 1 geraldtrotman extstu  9060 Feb 12 19:50 who2
+lrwxrwxrwx 1 geraldtrotman extstu    42 Feb 12 15:06 who2.c -> /home/l/i/lib215/hw/loginhist/files/who2.c
+-rwxr-xr-x 1 geraldtrotman extstu 13466 Feb 13 22:52 who3
+lrwxrwxrwx 1 geraldtrotman extstu    42 Feb 12 15:06 who3.c -> /home/l/i/lib215/hw/loginhist/files/who3.c
+-rwxr-xr-x 1 geraldtrotman extstu 13805 Feb 16 20:14 whodate
+-rw-r--r-- 1 geraldtrotman extstu  3432 Feb 16 21:13 whodate.c
+lrwxrwxrwx 1 geraldtrotman extstu    44 Feb 12 15:06 wtmp.big -> /home/l/i/lib215/hw/loginhist/files/wtmp.big
+lrwxrwxrwx 1 geraldtrotman extstu    47 Feb 12 15:06 wtmp.sample -> /home/l/i/lib215/hw/loginhist/files/wtmp.sample
+geraldtrotman@ice4:~/CSCIE28/Projects/project1/loginhist$ a.out
+a.out: command not found
+geraldtrotman@ice4:~/CSCIE28/Projects/project1/loginhist$ ./loginhost gerald
+bash: ./loginhost: No such file or directory
+geraldtrotman@ice4:~/CSCIE28/Projects/project1/loginhist$ ./a.out
+bash: ./a.out: No such file or directory
+geraldtrotman@ice4:~/CSCIE28/Projects/project1/loginhist$ exit
+exit
+
+Script done on Mon 16 Feb 2015 09:21:15 PM EST

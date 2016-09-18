@@ -1,0 +1,42 @@
+Project: smsh 
+
+Purpose: To mimic some of the functionality of the small shell utility. 
+
+Outline:
+	This project is meant to improve on the small shell design from class.
+	The shell has builtin commands cd, export, set, exit, and assign which 
+	are analogous to the base shell. Additionally there is a read command 
+	which allows a line of input from stdin to be read into a shell variable. 
+	This version of shell supports named variables, control command execution 
+	and flow control via if,then,else statements.
+
+Output:
+	Output to the user is provided directly to the terminal window.
+
+Arguments:
+	The shell takes a maximum of one argument which is the name of the file
+	 to read commands from. If no argument is supplied, commands are read 
+	from stdin via interactive mode.
+
+Input:
+	In interactive mode, the commands are accepted from the terminal via 
+	the command line prompt. In scripted mode, the commands come from a file
+	specified by the user. 
+
+Data Structures:
+	The shell uses most of the same data structures, functions and logic
+	we were givem from smsh4.2 with some changes. In completing this assignment,
+	my objective was to stick to code as close as possible.
+
+	For nested if execution, the shell uses a global linked list(stack) of 
+	control blocks (found in controlflow.c). The structs on the list contain 
+	the current state and the if result for the execution block. When an if 
+	statement is located, a new control block is placed at the front of the list
+	and removed from the tail end of the list (pushed and popped).
+
+	For support of the else statement as part of control flow, an 
+	ELSE_BLOCK state was added to the existing enum of control states.
+	
+Files:
+        This program in particular does not rely on any external files or directories.
+

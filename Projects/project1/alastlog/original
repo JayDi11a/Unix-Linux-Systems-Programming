@@ -1,0 +1,21 @@
+Script started on Mon 15 Feb 2016 07:28:51 PM EST
+geraldtrotman@ice4:~/cscie28/Projects/project1/alastlog$ make alastlog
+cc -c alastlog.c
+alastlog.c: In function ‘main’:
+alastlog.c:56:2: warning: passing argument 1 of ‘show_info’ from incompatible pointer type [enabled by default]
+alastlog.c:30:8: note: expected ‘struct utmp *’ but argument is of type ‘struct utmp **’
+alastlog.c: In function ‘process_ops’:
+alastlog.c:146:25: warning: incompatible implicit declaration of built-in function ‘strcpy’ [enabled by default]
+alastlog.c:151:25: warning: incompatible implicit declaration of built-in function ‘strcpy’ [enabled by default]
+alastlog.c: In function ‘compare_info’:
+alastlog.c:174:2: warning: incompatible implicit declaration of built-in function ‘strcpy’ [enabled by default]
+cc -Wall alastlog.o utmplib.o -o alastlog
+geraldtrotman@ice4:~/cscie28/Projects/project1/alastlog$ ./alastlog geraldtrotman [K -f logfile.ice1
+geraldtrotman assigned as user
+geraldtrotman confirmed as user?
+Username         Port    From             Latest
+Segmentation fault
+geraldtrotman@ice4:~/cscie28/Projects/project1/alastlog$ exit
+exit
+
+Script done on Mon 15 Feb 2016 07:29:34 PM EST

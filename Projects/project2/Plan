@@ -1,0 +1,33 @@
+Project: pfind
+
+
+Purpose: 
+	The program, pfind, finds and displays the names and paths of files 
+	that match a given name pattern or file type.
+
+Outline:
+        pfind opens a directory, reads it and checks each entry and
+        subdirectory for files that may match certain criteria.
+        The form of output is one line of text for each entry found.
+
+Output:
+        The output resembles that of:
+           find
+
+Arguments:
+        The program accepts a directory name, with an option name search pattern
+        and optional type specifier
+
+Input:
+        The program does not accept any user input; the datafile and arguments
+        are the only source of input
+
+Data Structures:
+        Reads in one struct dirent at a time and acts on it. Makes recursive
+        calls to itself which could cause it to store many dirent structs when
+        used on a deep directory structure.
+
+
+Files:
+        The program works on directories
+~                                    

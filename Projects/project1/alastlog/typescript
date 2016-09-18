@@ -1,0 +1,20 @@
+Script started on Mon 15 Feb 2016 07:25:25 PM EST
+geraldtrotman@ice4:~/cscie28/Projects/project1/alastlog$ mi[K[Km[Kmake alastlog
+cc -c alastlog.c
+cc -Wall alastlog.o utmplib.o -o alastlog
+geraldtrotman@ice4:~/cscie28/Projects/project1/alastlog$ ./alastlog
+Username         Port    From             Latest
+root             tty1    Tue Jun 23 23:19:44 -0400 2015
+antoinelopezpalm pts/6   ip68-111-166-11. Mon Feb 15 10:51:31 -0500 2016
+geraldtrotman    pts/7   65.112.10.172 Mon Feb 15 15:47:41 -0500 2016
+bethboose        pts/19   73.178.227.38 Mon Feb 15 12:51:07 -0500 2016
+geraldtrotman@ice4:~/cscie28/Projects/project1/alastlog$ lastlog -u geraldtrotman
+Username         Port     From             Latest
+geraldtrotman    pts/21   65.112.10.172    Mon Feb 15 16:54:03 -0500 2016
+geraldtrotman@ice4:~/cscie28/Projects/project1/alastlog$ exit[K[K[K[Kls
+alastlog    alastlog.o	dumputmp.c   logfile.ice1  logfile.ice3  Plan	 typescript  utmplib.h
+alastlog.c  dumputmp	logfile.fas  logfile.ice2  Makefile	 README  utmplib.c   utmplib.o
+geraldtrotman@ice4:~/cscie28/Projects/project1/alastlog$ eci[K[Kxit
+exit
+
+Script done on Mon 15 Feb 2016 07:26:04 PM EST

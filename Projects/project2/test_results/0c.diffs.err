@@ -1,0 +1,4 @@
+1c1
+< program-name: Unrecognized option
+---
+> program-name: unknown predicate `-oops'

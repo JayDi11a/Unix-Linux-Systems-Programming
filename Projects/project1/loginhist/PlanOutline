@@ -1,0 +1,33 @@
+Project: whodate and lastlogin 
+
+Purpose: Programs to display the contents of a utmp file in human-readable form
+
+Outline:
+	whodate and lastlogin reads the utmp file record by record and 
+        presents the contents in human-readable form.  The
+        form of output is one line per record with fixed-width fields,
+        all in text.
+        
+	lastlogin and whodate uses read to get data from the file, and uses
+        printf to format and output results.
+
+Output:
+	The output looks like:
+           logname, tty, pid, type, text version of type, time, host
+
+Arguments:
+	whodate and lastlogin  accept one command line argument, a file to dump.
+        If no filename is given, dumputmp processes UTMP_FILE as defined
+        in utmp.h
+
+Input:
+        lastlogin and whodate take an -f flag and wtmp file, a user name or a date in (yyyy mm dd) format
+
+Data Structures:
+        lastlogin and whodate reads and writes one record at a time.  It only needs
+        to store a single record, so one variable of type struct utmp
+        is used.
+
+Files:
+        lastlogin and whodate reads a file of utmp records.  See Arguments and Input
+        sections above.

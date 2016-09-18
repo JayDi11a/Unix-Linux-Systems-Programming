@@ -1,0 +1,11 @@
+Cannot open ./puppetlabs/mcollective/ssl
+Cannot open ./puppetlabs/puppet/ssl
+Cannot open ./audit
+Cannot open ./sudoers.d
+Cannot open ./mcollective/policies
+Cannot open ./ppp/peers
+Cannot open ./ssl/private
+Cannot open ./chatscripts
+Cannot open ./audisp
+Cannot open ./lvm/backup
+Cannot open ./lvm/cache

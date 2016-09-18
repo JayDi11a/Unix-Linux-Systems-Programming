@@ -1,0 +1,42 @@
+0a1,2
+> /home/l/i/lib215/hw/pfind/pft2.d/d1
+> /home/l/i/lib215/hw/pfind/pft2.d/d1/d1
+4c6
+< /home/l/i/lib215/hw/pfind/pft2.d/d1/d1
+---
+> /home/l/i/lib215/hw/pfind/pft2.d/d1/d3
+8,9d9
+< /home/l/i/lib215/hw/pfind/pft2.d/d1/d3
+< /home/l/i/lib215/hw/pfind/pft2.d/d1/d4/d5
+11c11
+< /home/l/i/lib215/hw/pfind/pft2.d/d1/d7/d8
+---
+> /home/l/i/lib215/hw/pfind/pft2.d/d1/d4/d5
+13c13,15
+< /home/l/i/lib215/hw/pfind/pft2.d/d1
+---
+> /home/l/i/lib215/hw/pfind/pft2.d/d1/d7/d8
+> /home/l/i/lib215/hw/pfind/pft2.d/d2
+> /home/l/i/lib215/hw/pfind/pft2.d/d2/d1
+17c19
+< /home/l/i/lib215/hw/pfind/pft2.d/d2/d1
+---
+> /home/l/i/lib215/hw/pfind/pft2.d/d2/d3
+21,22c23,24
+< /home/l/i/lib215/hw/pfind/pft2.d/d2/d3
+< /home/l/i/lib215/hw/pfind/pft2.d/d2
+---
+> /home/l/i/lib215/hw/pfind/pft2.d/d3
+> /home/l/i/lib215/hw/pfind/pft2.d/d3/d1
+26c28
+< /home/l/i/lib215/hw/pfind/pft2.d/d3/d1
+---
+> /home/l/i/lib215/hw/pfind/pft2.d/d3/d2
+30c32
+< /home/l/i/lib215/hw/pfind/pft2.d/d3/d2
+---
+> /home/l/i/lib215/hw/pfind/pft2.d/d3/d3
+34d35
+< /home/l/i/lib215/hw/pfind/pft2.d/d3/d3
+36d36
+< /home/l/i/lib215/hw/pfind/pft2.d/d3

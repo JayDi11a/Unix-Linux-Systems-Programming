@@ -1,0 +1,31 @@
+Project: sttyl
+
+Purpose: sttyl is a program that is designed to display and optionally edit terminal settings.
+
+Outline:
+        The program reads the terminal settings from stdin. If no arguments are given
+        it prints a human readable version of the settings.
+        If setting arguments are supplied, they are used to update the terminal settings
+        before printing a human readable version of the changes to the settings.
+
+Output:
+        The form of output is intended to resemble that of stty from what was specified in the
+	assigment specs.
+Arguments:
+        The program accepts no arguments or a series of them that correspond with
+        the terminal settings as listed in termios.h file.
+
+Input:
+        The program actual doesn't accept any user input. The terminal settings get read
+        in and its the arguments themselves that are the only data that get acted upon.
+
+Data Structures:
+        The program uses an array of structs as a table lookup to identify the
+        appropriate locations to read and/or update. The tables are of two
+        different types: bitField updates and control character updates. The bitfields 
+        also list offsets to the register containg the bit field. Otherwise, both tables
+        contain a string representing the update location, and the integer that corresponds to
+        its bitmask or array location.
+
+Files:
+        The program was intended to work on terminal devices.

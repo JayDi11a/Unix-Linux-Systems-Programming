@@ -1,0 +1,325 @@
+Script started on Sat 16 Apr 2016 09:49:28 PM EDT
+geraldtrotman@ice4:~/cscie28/Projects/project5$ make
+gcc -g -Wall    -c -o controlflow.o controlflow.c
+gcc -g -Wall    -c -o builtin.o builtin.c
+gcc -g -Wall -o smsh smsh.o splitline.o execute2.o process2.o \
+		controlflow.o builtin.o flexstr.o varlib.o
+geraldtrotman@ice4:~/cscie28/Projects/project5$ makevim splitline.c[5Pmsh.chprocess2.c[1Pflexstr.cexecute2.ccontrolflow.c[4Pbuiltin.cls[Kclear[3Plsclearvim smsh.cprocess2.cls[Kclears[Kclearrm typescript[Kls[Kscript[2Pexitmakevim README[2PPlanls[Kclear~lib215/hw/smsh/test.smshls[K~lib215/hw/smsh/test.smsh
+  Testing ./smsh as of Sat Apr 16 21:49:42 EDT 2016
+-rwxr-xr-x 1 geraldtrotman extstu 43288 Apr 16 21:49 ./smsh
+
+	* Test 1: Does the program read commands from a script? 
+		OK
+	* Test 2a: Does cd work correctly? 
+		cd works when the directory exists
+		/bad.directory not found
+OK: cd detects bad directories
+	* Test 2b: Does cd without args return to /home/g/e/geraldtrotman
+		OK: cd without an arg returns to $HOME
+	* Test 3: Does the shell do variable substitution correctly?
+		and ignore dollar signs when asked?
+		OK
+	* Test 3m: Does shell handle substring varnames?
+
+OK
+
+	* Test 4: Does the shell read in variables correctly?
+		OK
+	* Test 5a: Does one-level if and else work?
+		OK
+	* Test 5b: Does the if detect missing thens ?
+		syntax error: else unexpected
+syntax error: fi unexpected
+OK
+	* Test 5c: Does the if command find unexpected EOFS?
+		root:x:0:0:root:/root:/bin/bash
+this system has a root login
+that is a good thing
+was hoping to find the word unexpected in error stream
+script looked like..
+LOOKFOR=root
+ETC=etc
+WORD=wd
+if grep $LOOKFOR /$ETC/pass$WORD
+then
+	echo this system has a root login
+	echo that is a good thing
+else
+	echo something is wrong here
+	echo there is no login for root
+and error stream looked like
+Continue with tests (y/n)? y
+	* Test 5d: Does the if catch missing ifs?
+		root:x:0:0:root:/root:/bin/bash
+this system has a root login
+that is a good thing
+something is wrong here
+there is no login for root
+syntax error: then unexpected
+syntax error: else unexpected
+syntax error: fi unexpected
+OK
+	* Test 6: Does the shell process the exit built-in ok?
+		OK
+	* Test 7: Does nested if work?
+			Output should consist of lines 1 2 3 4 5 6
+	line 1
+	line 2
+	line 3
+	line 4
+	line 5
+	error 4
+	line 6
+Did not work for
+
+CMD=echo
+echo Output should consist of lines 1 2 3 4 5 6
+if echo line 1
+then
+	$CMD line 2
+	if false
+	then
+		echo error 1
+		echo error 2
+	else
+		if echo line 3
+		then
+			echo line 4
+		else
+			echo error 3
+		fi
+	fi
+	echo line 5
+else
+	if true
+	then
+		echo error 4
+	else
+		echo error 5
+	fi
+	echo error 6
+fi
+echo line 6
+Continue with tests (y/n)? y
+	* Test 7d: Does nested if work for deep structures?
+		  Testing deep1
+Did not work for
+if echo YES 1 
+then
+	echo YES 2
+	if echo YES 3
+	then
+		echo YES 4
+	else
+		echo NO  1
+		if echo NO 2
+		then
+			echo NO 3
+		else
+			if true
+			then
+				echo NO 4
+			else
+				if false
+				then
+					echo NO 5
+				else
+					echo NO 6
+				fi
+			fi
+		fi
+		echo NO 7
+	fi
+	echo YES 5
+else
+	echo NO E1
+	if echo NO E2
+	then
+		echo NO E3
+		echo NO E4
+	else
+		echo NO E5
+		if echo NO E6
+		then
+			echo NO E7
+		else
+			if true
+			then
+				echo NO E8
+			else
+				if echo NO we should not see this one
+				then
+					echo NO E9
+				else
+					echo NO E10
+				fi
+			fi
+		fi
+		echo NO E11
+	fi
+	echo NO E12
+fi
+Continue with tests (y/n)? y
+  Testing deep2
+Did not work for
+if false
+then
+	echo 1
+	if false
+	then
+		echo 2
+		if false
+		then
+			echo 3
+			if false
+			then 
+				echo 4
+			else
+				if true
+				then
+					echo 5
+				else
+					echo 6
+				fi
+			fi
+		fi
+	fi
+else
+	echo E1
+	if false
+	then
+		echo E2
+		if false
+		then
+			echo E3
+			if false
+			then 
+				echo E4
+			else
+				if true
+				then
+					echo E5
+				else
+					echo E6
+				fi
+			fi
+		fi
+	fi
+fi
+Continue with tests (y/n)? y
+  Testing deep3
+Did not work for
+if echo YES 1 
+then
+	echo YES 2
+	if echo YES 3
+	then
+		echo YES 4
+		echo YES 5
+		if echo YES 6
+		then
+			echo YES 7
+		else
+			if true
+			then
+				echo NO T4
+			else
+				if false
+				then
+					echo NO T5
+				else
+					echo NO T6
+
+				fi
+			fi
+		fi
+	else
+		echo NO  1
+		if echo NO 2
+		then
+			echo NO 3
+		else
+			if true
+			then
+				echo NO 4
+			else
+				if false
+				then
+					echo NO 5
+				else
+					echo NO 6
+
+				fi
+			fi
+		fi
+		echo NO 7
+	fi
+	echo YES 8
+else
+	echo NO E1
+	if echo NO E2
+	then
+		echo E1-NO E3
+		echo E1-NO E5
+		if echo E1-NO E6
+		then
+			echo E1-NO E7
+		else
+			if true
+			then
+				echo E1-NO E8
+			else
+				if echo E1-NO we should not see this one
+				then
+					echo E1-NO E9
+				else
+					echo E1-NO E10
+				fi
+			fi
+		fi
+		echo E1-NO E11
+		echo E1-NO E4
+	else
+		echo NO E5
+		if echo NO E6
+		then
+			echo NO E7
+		else
+			if true
+			then
+				echo NO E8
+			else
+				if echo NO we should not see this one
+				then
+					echo NO E9
+				else
+					echo NO E10
+				fi
+			fi
+		fi
+		echo NO E11
+	fi
+	echo NO E12
+fi
+Continue with tests (y/n)? y
+	* Test 8: A manual test
+		
+	Does your shell reject assignment statements of the
+	form   
+		9xyz=tuna  
+	or      x.y=fun
+	
+	 That is, assignments to names that are not legal
+	variable identifiers
+geraldtrotman@ice4:~/cscie28/Projects/project5$ 9x[K[K./smsh
+> 9xyz=ty una
+cannot execute command: No such file or directory
+> x.y=fun
+cannot execute command: No such file or directory
+> xyz=tum na
+> xy=fun
+> eit  xit
+geraldtrotman@ice4:~/cscie28/Projects/project5$ exit
+exit
+
+Script done on Sat 16 Apr 2016 09:51:00 PM EDT

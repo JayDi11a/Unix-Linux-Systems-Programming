@@ -1,0 +1,8 @@
+Gerald Trotman
+CSCIE28
+Project 1: alastlog
+geraldtrotman@fas.harvard.edu
+
+I created two versions of alastlog. The first one I worked on last year which was a combination of Whodate and Lastlogin that I managed to break. Now it produces segmentation faults and I am not sure why. I then reproached it using the who3 example and beyond some structural output, didn't really have much more time to work on it.
+
+In this submission is my alastlog1.c, alastlogin.c, README, plan, typescript, another typescript called original,and the files that were included in the assignment initially.

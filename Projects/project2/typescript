@@ -1,0 +1,1073 @@
+Script started on Sun 28 Feb 2016 09:10:09 PM EST
+geraldtrotman@ice4:~/cscie28/Projects/project2$ lsclearrm typescriptls[Kclearscript[2Pexit./pfind /home/g/e/geraldtrotman/cscie28/Pfind[K[K[K[Krojects[K
+Cannot open /home/g/e/geraldtrotman/cscie28/Project
+geraldtrotman@ice4:~/cscie28/Projects/project2$ ./pfind /home/g/e/geraldtrotman/cscie28/Projects
+/home/g/e/geraldtrotman/cscie28/Projects/project1/loginhist/wtmp.big
+/home/g/e/geraldtrotman/cscie28/Projects/project1/loginhist/dumputmp
+/home/g/e/geraldtrotman/cscie28/Projects/project1/loginhist/who3.c
+/home/g/e/geraldtrotman/cscie28/Projects/project1/loginhist/README
+/home/g/e/geraldtrotman/cscie28/Projects/project1/loginhist/Makefile
+/home/g/e/geraldtrotman/cscie28/Projects/project1/loginhist/wtmp.sample
+/home/g/e/geraldtrotman/cscie28/Projects/project1/loginhist/who3
+/home/g/e/geraldtrotman/cscie28/Projects/project1/loginhist/whodate
+/home/g/e/geraldtrotman/cscie28/Projects/project1/loginhist/who2
+/home/g/e/geraldtrotman/cscie28/Projects/project1/loginhist/lastlogin.c
+/home/g/e/geraldtrotman/cscie28/Projects/project1/loginhist/utmplib.h
+/home/g/e/geraldtrotman/cscie28/Projects/project1/loginhist/lastlogin
+/home/g/e/geraldtrotman/cscie28/Projects/project1/loginhist/who2.c
+/home/g/e/geraldtrotman/cscie28/Projects/project1/loginhist/utmplib.c
+/home/g/e/geraldtrotman/cscie28/Projects/project1/loginhist/dumputmp.c
+/home/g/e/geraldtrotman/cscie28/Projects/project1/loginhist/utmplib.o
+/home/g/e/geraldtrotman/cscie28/Projects/project1/loginhist/Plan
+/home/g/e/geraldtrotman/cscie28/Projects/project1/loginhist/myutmplib.c
+/home/g/e/geraldtrotman/cscie28/Projects/project1/loginhist/myutmplib.h
+/home/g/e/geraldtrotman/cscie28/Projects/project1/loginhist/PlanOutline
+/home/g/e/geraldtrotman/cscie28/Projects/project1/loginhist/project2
+/home/g/e/geraldtrotman/cscie28/Projects/project1/loginhist/whodate.c
+/home/g/e/geraldtrotman/cscie28/Projects/project1/loginhist/typescript
+/home/g/e/geraldtrotman/cscie28/Projects/project1/loginhist
+/home/g/e/geraldtrotman/cscie28/Projects/project1/alastlog/dumputmp
+/home/g/e/geraldtrotman/cscie28/Projects/project1/alastlog/dumputmp.c
+/home/g/e/geraldtrotman/cscie28/Projects/project1/alastlog/logfile.fas
+/home/g/e/geraldtrotman/cscie28/Projects/project1/alastlog/logfile.ice1
+/home/g/e/geraldtrotman/cscie28/Projects/project1/alastlog/logfile.ice2
+/home/g/e/geraldtrotman/cscie28/Projects/project1/alastlog/logfile.ice3
+/home/g/e/geraldtrotman/cscie28/Projects/project1/alastlog/Makefile
+/home/g/e/geraldtrotman/cscie28/Projects/project1/alastlog/utmplib.c
+/home/g/e/geraldtrotman/cscie28/Projects/project1/alastlog/utmplib.h
+/home/g/e/geraldtrotman/cscie28/Projects/project1/alastlog/original
+/home/g/e/geraldtrotman/cscie28/Projects/project1/alastlog/alastlog.o
+/home/g/e/geraldtrotman/cscie28/Projects/project1/alastlog/alastlog
+/home/g/e/geraldtrotman/cscie28/Projects/project1/alastlog/alastlog.c
+/home/g/e/geraldtrotman/cscie28/Projects/project1/alastlog/utmplib.o
+/home/g/e/geraldtrotman/cscie28/Projects/project1/alastlog/README
+/home/g/e/geraldtrotman/cscie28/Projects/project1/alastlog/alastlog1.c
+/home/g/e/geraldtrotman/cscie28/Projects/project1/alastlog/Plan
+/home/g/e/geraldtrotman/cscie28/Projects/project1/alastlog/typescript
+/home/g/e/geraldtrotman/cscie28/Projects/project1/alastlog
+/home/g/e/geraldtrotman/cscie28/Projects/project1
+/home/g/e/geraldtrotman/cscie28/Projects/project2/Makefile
+/home/g/e/geraldtrotman/cscie28/Projects/project2/pfind.c
+/home/g/e/geraldtrotman/cscie28/Projects/project2/README
+/home/g/e/geraldtrotman/cscie28/Projects/project2/Plan
+/home/g/e/geraldtrotman/cscie28/Projects/project2/pfind
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/7c.pfind
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/7c.diffs
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/7d.find
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/7d.pfind
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/7d.diffs
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/7e.find
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/7e.pfind
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/7e.diffs
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/7f.find
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/7f.pfind
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/7f.diffs
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/7g.find
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/7g.pfind
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/7g.diffs
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/7g.find.err
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/7g.pfind.err
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/7g.diffs.err
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/8a.find
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/8a.pfind
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/8a.diffs
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/8a.find.err
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/8b.find
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/8a.pfind.err
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/8a.diffs.err
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/8b.pfind
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/8b.diffs
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/8b.find.err
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/8b.pfind.err
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/8b.diffs.err
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/8c.find
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/8c.pfind
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/8c.diffs
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/8c.find.err
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/8c.pfind.err
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/8c.diffs.err
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/8d.find
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/8d.pfind
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/8d.diffs
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/8d.find.err
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/8d.pfind.err
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/8d.diffs.err
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/8e.find.err
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/8e.pfind.err
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/8e.diffs.err
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/1c.diffs.err
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/2a.find
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/2a.pfind
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/2a.diffs
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/2b.find
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/2b.pfind
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/2b.diffs
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/5a.find
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/5a.pfind
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/5a.diffs
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/5b.find
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/5b.pfind
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/5b.diffs
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/5c.find
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/5c.pfind
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/5c.diffs
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/7a.find
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/7a.pfind
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/7a.diffs
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/7b.find
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/7b.pfind
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/7b.diffs
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/7c.find
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/0a.find.err
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/0a.pfind.err
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/0a.diffs.err
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/0b.find
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/0b.pfind
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/0b.diffs
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/0b.find.err
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/0b.pfind.err
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/0b.diffs.err
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/0c.find.err
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/0c.pfind.err
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/0c.diffs.err
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/1a.find.err
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/1a.pfind.err
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/1a.diffs.err
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/1b.find.err
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/1b.pfind.err
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/1b.diffs.err
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/1c.find.err
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results/1c.pfind.err
+/home/g/e/geraldtrotman/cscie28/Projects/project2/test_results
+/home/g/e/geraldtrotman/cscie28/Projects/project2/typescript
+/home/g/e/geraldtrotman/cscie28/Projects/project2
+/home/g/e/geraldtrotman/cscie28/Projects/project3/sttyl.o
+/home/g/e/geraldtrotman/cscie28/Projects/project3/sttyl.c
+/home/g/e/geraldtrotman/cscie28/Projects/project3/sttyltable.h
+/home/g/e/geraldtrotman/cscie28/Projects/project3/sttyltable.c
+/home/g/e/geraldtrotman/cscie28/Projects/project3/Makefile
+/home/g/e/geraldtrotman/cscie28/Projects/project3/sttyltable.o
+/home/g/e/geraldtrotman/cscie28/Projects/project3/sttyl
+/home/g/e/geraldtrotman/cscie28/Projects/project3/typescript
+/home/g/e/geraldtrotman/cscie28/Projects/project3/README
+/home/g/e/geraldtrotman/cscie28/Projects/project3/Outline
+/home/g/e/geraldtrotman/cscie28/Projects/project3
+/home/g/e/geraldtrotman/cscie28/Projects/project4/set_ticker.c
+/home/g/e/geraldtrotman/cscie28/Projects/project4/paddle.h
+/home/g/e/geraldtrotman/cscie28/Projects/project4/paddle.c
+/home/g/e/geraldtrotman/cscie28/Projects/project4/pong.c
+/home/g/e/geraldtrotman/cscie28/Projects/project4/Makefile
+/home/g/e/geraldtrotman/cscie28/Projects/project4/set_ticker.o
+/home/g/e/geraldtrotman/cscie28/Projects/project4/bounce.h
+/home/g/e/geraldtrotman/cscie28/Projects/project4/pong.o
+/home/g/e/geraldtrotman/cscie28/Projects/project4/paddle.o
+/home/g/e/geraldtrotman/cscie28/Projects/project4/typescript
+/home/g/e/geraldtrotman/cscie28/Projects/project4/pong
+/home/g/e/geraldtrotman/cscie28/Projects/project4/README
+/home/g/e/geraldtrotman/cscie28/Projects/project4/Outline
+/home/g/e/geraldtrotman/cscie28/Projects/project4
+/home/g/e/geraldtrotman/cscie28/Projects/project2.old/typescript
+/home/g/e/geraldtrotman/cscie28/Projects/project2.old/Makefile
+/home/g/e/geraldtrotman/cscie28/Projects/project2.old/pfind.c
+/home/g/e/geraldtrotman/cscie28/Projects/project2.old/README
+/home/g/e/geraldtrotman/cscie28/Projects/project2.old/pfind
+/home/g/e/geraldtrotman/cscie28/Projects/project2.old/Outline
+/home/g/e/geraldtrotman/cscie28/Projects/project2.old
+/home/g/e/geraldtrotman/cscie28/Projects/project5/smsh4.2/execute2.o
+/home/g/e/geraldtrotman/cscie28/Projects/project5/smsh4.2/controlflow.c
+/home/g/e/geraldtrotman/cscie28/Projects/project5/smsh4.2/varlib.c
+/home/g/e/geraldtrotman/cscie28/Projects/project5/smsh4.2/execute2.c
+/home/g/e/geraldtrotman/cscie28/Projects/project5/smsh4.2/smsh4.2
+/home/g/e/geraldtrotman/cscie28/Projects/project5/smsh4.2/flexstr.c
+/home/g/e/geraldtrotman/cscie28/Projects/project5/smsh4.2/flexstr.h
+/home/g/e/geraldtrotman/cscie28/Projects/project5/smsh4.2/varlib.o
+/home/g/e/geraldtrotman/cscie28/Projects/project5/smsh4.2/Makefile
+/home/g/e/geraldtrotman/cscie28/Projects/project5/smsh4.2/process2.c
+/home/g/e/geraldtrotman/cscie28/Projects/project5/smsh4.2/smsh.h
+/home/g/e/geraldtrotman/cscie28/Projects/project5/smsh4.2/smsh4.2.c
+/home/g/e/geraldtrotman/cscie28/Projects/project5/smsh4.2/builtin.o
+/home/g/e/geraldtrotman/cscie28/Projects/project5/smsh4.2/splitline.c
+/home/g/e/geraldtrotman/cscie28/Projects/project5/smsh4.2/splitline.h
+/home/g/e/geraldtrotman/cscie28/Projects/project5/smsh4.2/splitline.o
+/home/g/e/geraldtrotman/cscie28/Projects/project5/smsh4.2/tags
+/home/g/e/geraldtrotman/cscie28/Projects/project5/smsh4.2/varlib.h
+/home/g/e/geraldtrotman/cscie28/Projects/project5/smsh4.2/controlflow.o
+/home/g/e/geraldtrotman/cscie28/Projects/project5/smsh4.2/builtin.c
+/home/g/e/geraldtrotman/cscie28/Projects/project5/smsh4.2/flexstr.o
+/home/g/e/geraldtrotman/cscie28/Projects/project5/smsh4.2/flexstr.h.gch
+/home/g/e/geraldtrotman/cscie28/Projects/project5/smsh4.2/process2.o
+/home/g/e/geraldtrotman/cscie28/Projects/project5/smsh4.2/smsh4.2.o
+/home/g/e/geraldtrotman/cscie28/Projects/project5/smsh4.2/splitline.h.gch
+/home/g/e/geraldtrotman/cscie28/Projects/project5/smsh4.2
+/home/g/e/geraldtrotman/cscie28/Projects/project5
+geraldtrotman@ice4:~/cscie28/Projects/project2$ ./pfind /home/g/e/geraldtrotman/cscie28/Projects -name  Outline
+/home/g/e/geraldtrotman/cscie28/Projects/project3/Outline
+/home/g/e/geraldtrotman/cscie28/Projects/project4/Outline
+/home/g/e/geraldtrotman/cscie28/Projects/project2.old/Outline
+geraldtrotman@ice4:~/cscie28/Projects/project2$ ./pfind /home/g/e/geraldtrotman/cscie28/Projects -name OOutline[K[K[K[K[K[K[KMakefile
+/home/g/e/geraldtrotman/cscie28/Projects/project1/loginhist/Makefile
+/home/g/e/geraldtrotman/cscie28/Projects/project1/alastlog/Makefile
+/home/g/e/geraldtrotman/cscie28/Projects/project2/Makefile
+/home/g/e/geraldtrotman/cscie28/Projects/project3/Makefile
+/home/g/e/geraldtrotman/cscie28/Projects/project4/Makefile
+/home/g/e/geraldtrotman/cscie28/Projects/project2.old/Makefile
+/home/g/e/geraldtrotman/cscie28/Projects/project5/smsh4.2/Makefile
+geraldtrotman@ice4:~/cscie28/Projects/project2$ ./pfind /home/g/e/geraldtrotman/cscie28/Projects -name MMakefile[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C  '*.c' 
+/home/g/e/geraldtrotman/cscie28/Projects/project1/loginhist/who3.c
+/home/g/e/geraldtrotman/cscie28/Projects/project1/loginhist/lastlogin.c
+/home/g/e/geraldtrotman/cscie28/Projects/project1/loginhist/who2.c
+/home/g/e/geraldtrotman/cscie28/Projects/project1/loginhist/utmplib.c
+/home/g/e/geraldtrotman/cscie28/Projects/project1/loginhist/dumputmp.c
+/home/g/e/geraldtrotman/cscie28/Projects/project1/loginhist/myutmplib.c
+/home/g/e/geraldtrotman/cscie28/Projects/project1/loginhist/whodate.c
+/home/g/e/geraldtrotman/cscie28/Projects/project1/alastlog/dumputmp.c
+/home/g/e/geraldtrotman/cscie28/Projects/project1/alastlog/utmplib.c
+/home/g/e/geraldtrotman/cscie28/Projects/project1/alastlog/alastlog.c
+/home/g/e/geraldtrotman/cscie28/Projects/project1/alastlog/alastlog1.c
+/home/g/e/geraldtrotman/cscie28/Projects/project2/pfind.c
+/home/g/e/geraldtrotman/cscie28/Projects/project3/sttyl.c
+/home/g/e/geraldtrotman/cscie28/Projects/project3/sttyltable.c
+/home/g/e/geraldtrotman/cscie28/Projects/project4/set_ticker.c
+/home/g/e/geraldtrotman/cscie28/Projects/project4/paddle.c
+/home/g/e/geraldtrotman/cscie28/Projects/project4/pong.c
+/home/g/e/geraldtrotman/cscie28/Projects/project2.old/pfind.c
+/home/g/e/geraldtrotman/cscie28/Projects/project5/smsh4.2/controlflow.c
+/home/g/e/geraldtrotman/cscie28/Projects/project5/smsh4.2/varlib.c
+/home/g/e/geraldtrotman/cscie28/Projects/project5/smsh4.2/execute2.c
+/home/g/e/geraldtrotman/cscie28/Projects/project5/smsh4.2/flexstr.c
+/home/g/e/geraldtrotman/cscie28/Projects/project5/smsh4.2/process2.c
+/home/g/e/geraldtrotman/cscie28/Projects/project5/smsh4.2/smsh4.2.c
+/home/g/e/geraldtrotman/cscie28/Projects/project5/smsh4.2/splitline.c
+/home/g/e/geraldtrotman/cscie28/Projects/project5/smsh4.2/builtin.c
+geraldtrotman@ice4:~/cscie28/Projects/project2$ ./pfind /home/g/e/geraldtrotman/cscie28/Projects -name ''*.c' -type fi[K
+f is printing out
+geraldtrotman@ice4:~/cscie28/Projects/project2$ ./pfind Makefile -type f
+f is printing out
+Cannot open Makefile
+geraldtrotman@ice4:~/cscie28/Projects/project2$ ./pfind Makefile -type f/home/g/e/geraldtrotman/cscie28/Projects -name ''*.c' -type f[KMakefile[1POutline[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kls[Kclearrm typescriptls[Kclearscript[2Pexit./pfind /home/g/e/geraldtrotman/cscie28/ls[Krm typescriptls[Kclear~lib215/handin pfind[8Pvim Makefile~lib215/handin pfind[8Pvim Makefilels[Kscript[2Pexit~lib215/hw/pfind/test.pfind[3P./pfind Makefile -type f~lib215/hw/pfind/test.pfind
+Making directory for test results..
+test_results contains files:
+0a.diffs.err  0c.pfind.err  2a.find   5c.diffs	7c.pfind  7g.diffs.err	8b.diffs      8c.pfind.err
+0a.find.err   1a.diffs.err  2a.pfind  5c.find	7d.diffs  7g.find	8b.diffs.err  8d.diffs
+0a.pfind.err  1a.find.err   2b.diffs  5c.pfind	7d.find   7g.find.err	8b.find       8d.diffs.err
+0b.diffs      1a.pfind.err  2b.find   7a.diffs	7d.pfind  7g.pfind	8b.find.err   8d.find
+0b.diffs.err  1b.diffs.err  2b.pfind  7a.find	7e.diffs  7g.pfind.err	8b.pfind      8d.find.err
+0b.find       1b.find.err   5a.diffs  7a.pfind	7e.find   8a.diffs	8b.pfind.err  8d.pfind
+0b.find.err   1b.pfind.err  5a.find   7b.diffs	7e.pfind  8a.diffs.err	8c.diffs      8d.pfind.err
+0b.pfind      1c.diffs.err  5a.pfind  7b.find	7f.diffs  8a.find	8c.diffs.err  8e.diffs.err
+0b.pfind.err  1c.find.err   5b.diffs  7b.pfind	7f.find   8a.find.err	8c.find       8e.find.err
+0c.diffs.err  1c.pfind.err  5b.find   7c.diffs	7f.pfind  8a.pfind	8c.find.err   8e.pfind.err
+0c.find.err   2a.diffs	    5b.pfind  7c.find	7g.diffs  8a.pfind.err	8c.pfind
+Ok to delete those (y/n)? y
+
+	Part 0: Checking handling of bad command lines
+	  Test 0a:  find . -name
+		Test 0a..NOT OK
+			 stderr diffs shown below.
+			 < is pfind stderr, > is find stderr
+1c1
+< program-name: Syntax error; duplicate criterion
+---
+> program-name: missing argument to `-name'
+=================			output from find in 0a.find.err
+			output from pfind in 0a.pfind.err
+	  Test 0b:  find . -name x -type
+		Test 0b..NOT OK
+			 Output diffs shown below.
+			 < is pfind output, > is find output
+1d0
+< (null) is printing out
+=================			output from find in 0b.find
+			output from pfind in 0b.pfind
+			 stderr diffs shown below.
+			 < is pfind stderr, > is find stderr
+1c1
+< program-name: Syntax error; duplicate criterion
+---
+> program-name: missing argument to `-type'
+=================			output from find in 0b.find.err
+			output from pfind in 0b.pfind.err
+	  Test 0c:  find . -oops bad
+		Test 0c..NOT OK
+			 stderr diffs shown below.
+			 < is pfind stderr, > is find stderr
+1c1
+< program-name: Unrecognized option
+---
+> program-name: unknown predicate `-oops'
+=================			output from find in 0c.find.err
+			output from pfind in 0c.pfind.err
+
+	Part 1: checking for passwd in /etc
+	  Test 1a:  find /etc -name passwd
+		Test 1a..NOT OK
+			 stderr diffs shown below.
+			 < is pfind stderr, > is find stderr
+1,11c1,11
+< Cannot open /etc/puppetlabs/mcollective/ssl
+< Cannot open /etc/puppetlabs/puppet/ssl
+< Cannot open /etc/audit
+< Cannot open /etc/sudoers.d
+< Cannot open /etc/mcollective/policies
+< Cannot open /etc/ppp/peers
+< Cannot open /etc/ssl/private
+< Cannot open /etc/chatscripts
+< Cannot open /etc/audisp
+< Cannot open /etc/lvm/backup
+< Cannot open /etc/lvm/cache
+---
+> program-name: `/etc/puppetlabs/mcollective/ssl': Permission denied
+> program-name: `/etc/puppetlabs/puppet/ssl': Permission denied
+> program-name: `/etc/audit': Permission denied
+> program-name: `/etc/sudoers.d': Permission denied
+> program-name: `/etc/mcollective/policies': Permission denied
+> program-name: `/etc/ppp/peers': Permission denied
+> program-name: `/etc/ssl/private': Permission denied
+> program-name: `/etc/chatscripts': Permission denied
+> program-name: `/etc/audisp': Permission denied
+> program-name: `/etc/lvm/backup': Permission denied
+> program-name: `/etc/lvm/cache': Permission denied
+=================			output from find in 1a.find.err
+			output from pfind in 1a.pfind.err
+	  Test 1b: cd /etc;  find . -name passwd
+		Test 1b..NOT OK
+			 stderr diffs shown below.
+			 < is pfind stderr, > is find stderr
+1,11c1,11
+< Cannot open ./puppetlabs/mcollective/ssl
+< Cannot open ./puppetlabs/puppet/ssl
+< Cannot open ./audit
+< Cannot open ./sudoers.d
+< Cannot open ./mcollective/policies
+< Cannot open ./ppp/peers
+< Cannot open ./ssl/private
+< Cannot open ./chatscripts
+< Cannot open ./audisp
+< Cannot open ./lvm/backup
+< Cannot open ./lvm/cache
+---
+> program-name: `./puppetlabs/mcollective/ssl': Permission denied
+> program-name: `./puppetlabs/puppet/ssl': Permission denied
+> program-name: `./audit': Permission denied
+> program-name: `./sudoers.d': Permission denied
+> program-name: `./mcollective/policies': Permission denied
+> program-name: `./ppp/peers': Permission denied
+> program-name: `./ssl/private': Permission denied
+> program-name: `./chatscripts': Permission denied
+> program-name: `./audisp': Permission denied
+> program-name: `./lvm/backup': Permission denied
+> program-name: `./lvm/cache': Permission denied
+=================			output from find in 1b.find.err
+			output from pfind in 1b.pfind.err
+	  Test 1c: cd /;  find etc -name passwd
+		Test 1c..NOT OK
+			 stderr diffs shown below.
+			 < is pfind stderr, > is find stderr
+1,11c1,11
+< Cannot open etc/puppetlabs/mcollective/ssl
+< Cannot open etc/puppetlabs/puppet/ssl
+< Cannot open etc/audit
+< Cannot open etc/sudoers.d
+< Cannot open etc/mcollective/policies
+< Cannot open etc/ppp/peers
+< Cannot open etc/ssl/private
+< Cannot open etc/chatscripts
+< Cannot open etc/audisp
+< Cannot open etc/lvm/backup
+< Cannot open etc/lvm/cache
+---
+> program-name: `etc/puppetlabs/mcollective/ssl': Permission denied
+> program-name: `etc/puppetlabs/puppet/ssl': Permission denied
+> program-name: `etc/audit': Permission denied
+> program-name: `etc/sudoers.d': Permission denied
+> program-name: `etc/mcollective/policies': Permission denied
+> program-name: `etc/ppp/peers': Permission denied
+> program-name: `etc/ssl/private': Permission denied
+> program-name: `etc/chatscripts': Permission denied
+> program-name: `etc/audisp': Permission denied
+> program-name: `etc/lvm/backup': Permission denied
+> program-name: `etc/lvm/cache': Permission denied
+=================			output from find in 1c.find.err
+			output from pfind in 1c.pfind.err
+
+	Part 2: multi-level search
+	  Test 2a:  find /home/l/i/lib215/hw/pfind/pft.d -name cookie
+		Test 2a..NOT OK
+			 Output diffs shown below.
+			 < is pfind output, > is find output
+1c1
+< /home/l/i/lib215/hw/pfind/pft.d/cookie/cookie
+---
+> /home/l/i/lib215/hw/pfind/pft.d/.hiddendir/cookie
+2a3
+> /home/l/i/lib215/hw/pfind/pft.d/cookie/cookie
+4d4
+< /home/l/i/lib215/hw/pfind/pft.d/dir1/dir1c/cookie/cookie
+5a6
+> /home/l/i/lib215/hw/pfind/pft.d/dir1/dir1c/cookie/cookie
+=================			output from find in 2a.find
+			output from pfind in 2a.pfind
+	  Test 2b: cd /home/l/i/lib215/hw/pfind;  find pft.d -name cookie
+		Test 2b..NOT OK
+			 Output diffs shown below.
+			 < is pfind output, > is find output
+1c1
+< pft.d/cookie/cookie
+---
+> pft.d/.hiddendir/cookie
+2a3
+> pft.d/cookie/cookie
+4d4
+< pft.d/dir1/dir1c/cookie/cookie
+5a6
+> pft.d/dir1/dir1c/cookie/cookie
+=================			output from find in 2b.find
+			output from pfind in 2b.pfind
+
+	Part 3: detect unreadable paths
+		This test searches some unreadable paths..
+		Error messages should be written to stderr.
+	  Test 3:  find /home/l/i/lib215/hw/pfind/pft2.d -name d8
+		Test 3..OK
+
+	Part 4: symlink test
+		If the test seems stuck here, your program
+		is lost in symlink loop.  Press Ctrl-C to stop it.
+	  Test 4:  find /home/l/i/lib215/hw/pfind/pft3.d -name cookie
+		Test 4..OK
+
+	Part 5: pattern matching tests
+	  Test 5a:  find /home/l/i/lib215/hw/pfind/pft.d -name \*1
+		Test 5a..NOT OK
+			 Output diffs shown below.
+			 < is pfind output, > is find output
+1d0
+< /home/l/i/lib215/hw/pfind/pft.d/dir1/file1
+2a2
+> /home/l/i/lib215/hw/pfind/pft.d/dir1/file1
+=================			output from find in 5a.find
+			output from pfind in 5a.pfind
+	  Test 5b:  find /home/l/i/lib215/hw/pfind/pft.d -name dir\*
+		Test 5b..NOT OK
+			 Output diffs shown below.
+			 < is pfind output, > is find output
+0a1
+> /home/l/i/lib215/hw/pfind/pft.d/dir1
+4c5
+< /home/l/i/lib215/hw/pfind/pft.d/dir1
+---
+> /home/l/i/lib215/hw/pfind/pft.d/dir2
+7,9d7
+< /home/l/i/lib215/hw/pfind/pft.d/dir2/dir2c/dir2c2/dir2c2.2/dir2c2.2.2
+< /home/l/i/lib215/hw/pfind/pft.d/dir2/dir2c/dir2c2/dir2c2.2
+< /home/l/i/lib215/hw/pfind/pft.d/dir2/dir2c/dir2c2
+11c9,11
+< /home/l/i/lib215/hw/pfind/pft.d/dir2
+---
+> /home/l/i/lib215/hw/pfind/pft.d/dir2/dir2c/dir2c2
+> /home/l/i/lib215/hw/pfind/pft.d/dir2/dir2c/dir2c2/dir2c2.2
+> /home/l/i/lib215/hw/pfind/pft.d/dir2/dir2c/dir2c2/dir2c2.2/dir2c2.2.2
+=================			output from find in 5b.find
+			output from pfind in 5b.pfind
+	  Test 5c:  find /home/l/i/lib215/hw/pfind/pft2.d -name d\?
+		Test 5c..NOT OK
+			 Output diffs shown below.
+			 < is pfind output, > is find output
+0a1,2
+> /home/l/i/lib215/hw/pfind/pft2.d/d1
+> /home/l/i/lib215/hw/pfind/pft2.d/d1/d1
+4c6
+< /home/l/i/lib215/hw/pfind/pft2.d/d1/d1
+---
+> /home/l/i/lib215/hw/pfind/pft2.d/d1/d3
+8,9d9
+< /home/l/i/lib215/hw/pfind/pft2.d/d1/d3
+< /home/l/i/lib215/hw/pfind/pft2.d/d1/d4/d5
+11c11
+< /home/l/i/lib215/hw/pfind/pft2.d/d1/d7/d8
+---
+> /home/l/i/lib215/hw/pfind/pft2.d/d1/d4/d5
+13c13,15
+< /home/l/i/lib215/hw/pfind/pft2.d/d1
+---
+> /home/l/i/lib215/hw/pfind/pft2.d/d1/d7/d8
+> /home/l/i/lib215/hw/pfind/pft2.d/d2
+> /home/l/i/lib215/hw/pfind/pft2.d/d2/d1
+17c19
+< /home/l/i/lib215/hw/pfind/pft2.d/d2/d1
+---
+> /home/l/i/lib215/hw/pfind/pft2.d/d2/d3
+21,22c23,24
+< /home/l/i/lib215/hw/pfind/pft2.d/d2/d3
+< /home/l/i/lib215/hw/pfind/pft2.d/d2
+---
+> /home/l/i/lib215/hw/pfind/pft2.d/d3
+> /home/l/i/lib215/hw/pfind/pft2.d/d3/d1
+26c28
+< /home/l/i/lib215/hw/pfind/pft2.d/d3/d1
+---
+> /home/l/i/lib215/hw/pfind/pft2.d/d3/d2
+30c32
+< /home/l/i/lib215/hw/pfind/pft2.d/d3/d2
+---
+> /home/l/i/lib215/hw/pfind/pft2.d/d3/d3
+34d35
+< /home/l/i/lib215/hw/pfind/pft2.d/d3/d3
+36d36
+< /home/l/i/lib215/hw/pfind/pft2.d/d3
+=================			output from find in 5c.find
+			output from pfind in 5c.pfind
+
+	Part 7: test combinations of args
+	  Test 7a:  find . -type d
+		Test 7a..NOT OK
+			 Output diffs shown below.
+			 < is pfind output, > is find output
+1c1,2
+< d is printing out
+---
+> .
+> ./test_results
+=================			output from find in 7a.find
+			output from pfind in 7a.pfind
+	  Test 7b:  find . -type f
+		Test 7b..NOT OK
+			 Output diffs shown below.
+			 < is pfind output, > is find output
+1c1,47
+< f is printing out
+---
+> ./Makefile
+> ./pfind.c
+> ./README
+> ./Plan
+> ./pfind
+> ./test_results/0a.find.err
+> ./test_results/0a.pfind.err
+> ./test_results/0a.diffs.err
+> ./test_results/0b.find
+> ./test_results/0b.pfind
+> ./test_results/0b.diffs
+> ./test_results/0b.find.err
+> ./test_results/0b.pfind.err
+> ./test_results/0b.diffs.err
+> ./test_results/0c.find.err
+> ./test_results/0c.pfind.err
+> ./test_results/0c.diffs.err
+> ./test_results/1a.find.err
+> ./test_results/1a.pfind.err
+> ./test_results/1a.diffs.err
+> ./test_results/1b.find.err
+> ./test_results/1b.pfind.err
+> ./test_results/1b.diffs.err
+> ./test_results/1c.find.err
+> ./test_results/1c.pfind.err
+> ./test_results/1c.diffs.err
+> ./test_results/2a.find
+> ./test_results/2a.pfind
+> ./test_results/2a.diffs
+> ./test_results/2b.find
+> ./test_results/2b.pfind
+> ./test_results/2b.diffs
+> ./test_results/5a.find
+> ./test_results/5a.pfind
+> ./test_results/5a.diffs
+> ./test_results/5b.find
+> ./test_results/5b.pfind
+> ./test_results/5b.diffs
+> ./test_results/5c.find
+> ./test_results/5c.pfind
+> ./test_results/5c.diffs
+> ./test_results/7a.find
+> ./test_results/7a.pfind
+> ./test_results/7a.diffs
+> ./.pfind.c.swp
+> ./.pfind.c.swo
+> ./typescript
+=================			output from find in 7b.find
+			output from pfind in 7b.pfind
+	  Test 7c:  find . -type l
+		Test 7c..NOT OK
+			 Output diffs shown below.
+			 < is pfind output, > is find output
+1d0
+< l is printing out
+=================			output from find in 7c.find
+			output from pfind in 7c.pfind
+	  Test 7d:  find . -name cookie -type d
+		Test 7d..NOT OK
+			 Output diffs shown below.
+			 < is pfind output, > is find output
+1d0
+< d is printing out
+=================			output from find in 7d.find
+			output from pfind in 7d.pfind
+	  Test 7e:  find . -type f -name cookie
+		Test 7e..NOT OK
+			 Output diffs shown below.
+			 < is pfind output, > is find output
+1d0
+< f is printing out
+=================			output from find in 7e.find
+			output from pfind in 7e.pfind
+	  Test 7f:  find .
+		Test 7f..NOT OK
+			 Output diffs shown below.
+			 < is pfind output, > is find output
+0a1
+> .
+5a7
+> ./test_results
+57c59,60
+< ./test_results
+---
+> ./.pfind.c.swp
+> ./.pfind.c.swo
+=================			output from find in 7f.find
+			output from pfind in 7f.pfind
+	  Test 7g: cd /tmp;  find .
+		Test 7g..NOT OK
+			 Output diffs shown below.
+			 < is pfind output, > is find output
+0a1
+> .
+15a17
+> ./pft.yAa3Os
+24d25
+< ./pft.yAa3Os
+28d28
+< ./vmware-config0/99-vmware-scsi-udev.rules
+29a30
+> ./vmware-config0/99-vmware-scsi-udev.rules
+135a137
+> ./.X11-unix
+174d175
+< ./hsperfdata_fsofela/640
+175a177
+> ./hsperfdata_fsofela/640
+215a218
+> ./pft.7paerT
+224d226
+< ./pft.7paerT
+368a371
+> ./.tutorrfI3Gg.swp
+485a489
+> ./h-geraldtrotman.zIUaSd
+491d494
+< ./h-geraldtrotman.zIUaSd
+571a575
+> ./pft.vFlnDx
+580d583
+< ./pft.vFlnDx
+586a590
+> ./pft.Y7gVDz
+595c599
+< ./pft.Y7gVDz
+---
+> ./pf
+599d602
+< ./pf
+719a723
+> ./pft.1a5a9E
+728d731
+< ./pft.1a5a9E
+733a737
+> ./.ICE-unix
+=================			output from find in 7g.find
+			output from pfind in 7g.pfind
+			 stderr diffs shown below.
+			 < is pfind stderr, > is find stderr
+1,156c1,156
+< Cannot open ./pft.ylkRS4
+< Cannot open ./pft.7Jnk8F
+< Cannot open ./pft.1KJorG
+< Cannot open ./hsperfdata_jjackson
+< Cannot open ./lost+found
+< Cannot open ./pft.3fer7Z
+< Cannot open ./pft.pceHWF
+< Cannot open ./pft.iy4KqT
+< Cannot open ./pft.jcFQCP
+< Cannot open ./pft.QLniTe
+< Cannot open ./pft.6pLkXn
+< Cannot open ./h-dkilleffer.aJx1BT
+< Cannot open ./pft.dqkpTU
+< Cannot open ./pft.KVVoG4
+< Cannot open ./pft.7rEzon
+< Cannot open ./pft.j4kPvZ
+< Cannot open ./pft.CH8Dx4
+< Cannot open ./pft.7gwcqr
+< Cannot open ./pft.xilc9H
+< Cannot open ./h-all208.0TpSR2
+< Cannot open ./pft.FGcVJT
+< Cannot open ./pft.Ng6yq4
+< Cannot open ./pft.8Bw8KR
+< Cannot open ./pft.nZIW7m
+< Cannot open ./pft.eqIBd2
+< Cannot open ./pft.Gcd3G9
+< Cannot open ./pft.KUduQN
+< Cannot open ./hsperfdata_libs1
+< Cannot open ./pft.sfgWxZ
+< Cannot open ./pft.xoozpi
+< Cannot open ./pft.B9cfWh
+< Cannot open ./emacs3027
+< Cannot open ./pft.GBsxKG
+< Cannot open ./h-hriggs.8nZWfE
+< Cannot open ./pft.YGNMrk
+< Cannot open ./pft.C91rIt
+< Cannot open ./pft.q5UT3Y
+< Cannot open ./pft.dkMq2k
+< Cannot open ./pft.yGdc5H
+< Cannot open ./pft.1gJ8Wd
+< Cannot open ./hsperfdata_eleveill
+< Cannot open ./hsperfdata_gbernstein
+< Cannot open ./pft.xYAsZw
+< Cannot open ./pft.HZYGAU
+< Cannot open ./pft.ltYQ18
+< Cannot open ./pft.dhLxbD
+< Cannot open ./pft.pVb8wU
+< Cannot open ./pft.zAJqhg
+< Cannot open ./pft.aNB5GP
+< Cannot open ./pft.JQUCe4
+< Cannot open ./pft.wDdj10
+< Cannot open ./pft.ZGv9Fw
+< Cannot open ./pft.cirsPw
+< Cannot open ./pft.SJNJRM
+< Cannot open ./pft.aobjxq
+< Cannot open ./pft.XDpXUq
+< Cannot open ./h-dkilleffer.hCxyYp
+< Cannot open ./pft.xg4kv8
+< Cannot open ./pft.mNVxM5
+< Cannot open ./pft.JY7PYp
+< Cannot open ./pft.GXARDU
+< Cannot open ./pft.jW4IcP
+< Cannot open ./pft.P6TU4X
+< Cannot open ./pft.r8Mfap
+< Cannot open ./pft.DmPyeU
+< Cannot open ./hsperfdata_kountourogianni
+< Cannot open ./hsperfdata_cs1
+< Cannot open ./pft.auEAMZ
+< Cannot open ./pft.kLRQTC
+< Cannot open ./h-kmaguire.YMcsm4
+< Cannot open ./pft.RaKlLW
+< Cannot open ./pft.Dxrw1n
+< Cannot open ./pft.0UkHsC
+< Cannot open ./h-lfuhrman.xrzf55
+< Cannot open ./pft.eafWJd
+< Cannot open ./pft.254Uxz
+< Cannot open ./pft.MXEU6P
+< Cannot open ./pft.JkESYF
+< Cannot open ./pft.Itngw6
+< Cannot open ./hsperfdata_lacarval
+< Cannot open ./pft.xhLldy
+< Cannot open ./pft.BjiTUM
+< Cannot open ./pft.f4Crpr
+< Cannot open ./pft.OovQTI
+< Cannot open ./pft.9aqh3W
+< Cannot open ./pft.uAZ8hN
+< Cannot open ./pft.Cnj9T5
+< Cannot open ./pft.QWR5rg
+< Cannot open ./pft.7K2T2J
+< Cannot open ./h-all208.QkvUht
+< Cannot open ./pft.8j1Lo5
+< Cannot open ./pft.Vih1fD
+< Cannot open ./pft.a8qAPN
+< Cannot open ./hsperfdata_ehannon
+< Cannot open ./pft.gzYgZC
+< Cannot open ./pft.Y19XG9
+< Cannot open ./pft.uguNgO
+< Cannot open ./pft.TJC5kZ
+< Cannot open ./pft.CfLRhs
+< Cannot open ./pft.Irb6un
+< Cannot open ./pft.PVsu3K
+< Cannot open ./pft.3l4zDB
+< Cannot open ./pft.rUUSX7
+< Cannot open ./pft.enennf
+< Cannot open ./pft.ccRr3T
+< Cannot open ./pft.n8VMss
+< Cannot open ./pft.JQKteq
+< Cannot open ./pft.1krJwo
+< Cannot open ./h-bethboose.6ahJQq
+< Cannot open ./pft.a8eIvM
+< Cannot open ./h-kmaguire.RZBVBQ
+< Cannot open ./pft.A27ZEe
+< Cannot open ./pft.tBQIMX
+< Cannot open ./pft.RSXJRy
+< Cannot open ./pft.XBaohs
+< Cannot open ./pft.2odLD5
+< Cannot open ./pft.VrSGWy
+< Cannot open ./pft.hh4OOY
+< Cannot open ./pft.qXRtyl
+< Cannot open ./vmware-root
+< Cannot open ./pft.zYdtjQ
+< Cannot open ./hsperfdata_cscie10
+< Cannot open ./pft.4leJBC
+< Cannot open ./pft.vm0lTa
+< Cannot open ./pft.i148VO
+< Cannot open ./hsperfdata_yrana
+< Cannot open ./pft.hNNgK4
+< Cannot open ./h-bethboose.lvPNa3
+< Cannot open ./pft.cQaXJO
+< Cannot open ./pft.JI67HX
+< Cannot open ./pft.mQfOWc
+< Cannot open ./pft.BvsLa2
+< Cannot open ./hsperfdata_ericwong
+< Cannot open ./h-vishaldubey.eCnOXf
+< Cannot open ./pft.ZwJNaZ
+< Cannot open ./pft.k2Susj
+< Cannot open ./pft.bmA1if
+< Cannot open ./pft.1F0dJG
+< Cannot open ./pft.FGrTFK
+< Cannot open ./pft.qa33LH
+< Cannot open ./pft.dBa5lj
+< Cannot open ./pft.wR9n3v
+< Cannot open ./h-dkilleffer.enOYHL
+< Cannot open ./pft.Pu4fel
+< Cannot open ./pft.LhtIYL
+< Cannot open ./pft.2zkTxS
+< Cannot open ./pft.96ivfW
+< Cannot open ./pft.IfVJMG
+< Cannot open ./pft.oR8jPw
+< Cannot open ./pft.loc3oL
+< Cannot open ./pft.65d81R
+< Cannot open ./pft.Fl9k4Q
+< Cannot open ./tmux-45332
+< Cannot open ./pft.UIZppR
+< Cannot open ./pft.z3vzli
+< Cannot open ./pft.DS61O7
+---
+> program-name: `./pft.ylkRS4': Permission denied
+> program-name: `./pft.7Jnk8F': Permission denied
+> program-name: `./pft.1KJorG': Permission denied
+> program-name: `./hsperfdata_jjackson': Permission denied
+> program-name: `./lost+found': Permission denied
+> program-name: `./pft.3fer7Z': Permission denied
+> program-name: `./pft.pceHWF': Permission denied
+> program-name: `./pft.iy4KqT': Permission denied
+> program-name: `./pft.jcFQCP': Permission denied
+> program-name: `./pft.QLniTe': Permission denied
+> program-name: `./pft.6pLkXn': Permission denied
+> program-name: `./h-dkilleffer.aJx1BT': Permission denied
+> program-name: `./pft.dqkpTU': Permission denied
+> program-name: `./pft.KVVoG4': Permission denied
+> program-name: `./pft.7rEzon': Permission denied
+> program-name: `./pft.j4kPvZ': Permission denied
+> program-name: `./pft.CH8Dx4': Permission denied
+> program-name: `./pft.7gwcqr': Permission denied
+> program-name: `./pft.xilc9H': Permission denied
+> program-name: `./h-all208.0TpSR2': Permission denied
+> program-name: `./pft.FGcVJT': Permission denied
+> program-name: `./pft.Ng6yq4': Permission denied
+> program-name: `./pft.8Bw8KR': Permission denied
+> program-name: `./pft.nZIW7m': Permission denied
+> program-name: `./pft.eqIBd2': Permission denied
+> program-name: `./pft.Gcd3G9': Permission denied
+> program-name: `./pft.KUduQN': Permission denied
+> program-name: `./hsperfdata_libs1': Permission denied
+> program-name: `./pft.sfgWxZ': Permission denied
+> program-name: `./pft.xoozpi': Permission denied
+> program-name: `./pft.B9cfWh': Permission denied
+> program-name: `./emacs3027': Permission denied
+> program-name: `./pft.GBsxKG': Permission denied
+> program-name: `./h-hriggs.8nZWfE': Permission denied
+> program-name: `./pft.YGNMrk': Permission denied
+> program-name: `./pft.C91rIt': Permission denied
+> program-name: `./pft.q5UT3Y': Permission denied
+> program-name: `./pft.dkMq2k': Permission denied
+> program-name: `./pft.yGdc5H': Permission denied
+> program-name: `./pft.1gJ8Wd': Permission denied
+> program-name: `./hsperfdata_eleveill': Permission denied
+> program-name: `./hsperfdata_gbernstein': Permission denied
+> program-name: `./pft.xYAsZw': Permission denied
+> program-name: `./pft.HZYGAU': Permission denied
+> program-name: `./pft.ltYQ18': Permission denied
+> program-name: `./pft.dhLxbD': Permission denied
+> program-name: `./pft.pVb8wU': Permission denied
+> program-name: `./pft.zAJqhg': Permission denied
+> program-name: `./pft.aNB5GP': Permission denied
+> program-name: `./pft.JQUCe4': Permission denied
+> program-name: `./pft.wDdj10': Permission denied
+> program-name: `./pft.ZGv9Fw': Permission denied
+> program-name: `./pft.cirsPw': Permission denied
+> program-name: `./pft.SJNJRM': Permission denied
+> program-name: `./pft.aobjxq': Permission denied
+> program-name: `./pft.XDpXUq': Permission denied
+> program-name: `./h-dkilleffer.hCxyYp': Permission denied
+> program-name: `./pft.xg4kv8': Permission denied
+> program-name: `./pft.mNVxM5': Permission denied
+> program-name: `./pft.JY7PYp': Permission denied
+> program-name: `./pft.GXARDU': Permission denied
+> program-name: `./pft.jW4IcP': Permission denied
+> program-name: `./pft.P6TU4X': Permission denied
+> program-name: `./pft.r8Mfap': Permission denied
+> program-name: `./pft.DmPyeU': Permission denied
+> program-name: `./hsperfdata_kountourogianni': Permission denied
+> program-name: `./hsperfdata_cs1': Permission denied
+> program-name: `./pft.auEAMZ': Permission denied
+> program-name: `./pft.kLRQTC': Permission denied
+> program-name: `./h-kmaguire.YMcsm4': Permission denied
+> program-name: `./pft.RaKlLW': Permission denied
+> program-name: `./pft.Dxrw1n': Permission denied
+> program-name: `./pft.0UkHsC': Permission denied
+> program-name: `./h-lfuhrman.xrzf55': Permission denied
+> program-name: `./pft.eafWJd': Permission denied
+> program-name: `./pft.254Uxz': Permission denied
+> program-name: `./pft.MXEU6P': Permission denied
+> program-name: `./pft.JkESYF': Permission denied
+> program-name: `./pft.Itngw6': Permission denied
+> program-name: `./hsperfdata_lacarval': Permission denied
+> program-name: `./pft.xhLldy': Permission denied
+> program-name: `./pft.BjiTUM': Permission denied
+> program-name: `./pft.f4Crpr': Permission denied
+> program-name: `./pft.OovQTI': Permission denied
+> program-name: `./pft.9aqh3W': Permission denied
+> program-name: `./pft.uAZ8hN': Permission denied
+> program-name: `./pft.Cnj9T5': Permission denied
+> program-name: `./pft.QWR5rg': Permission denied
+> program-name: `./pft.7K2T2J': Permission denied
+> program-name: `./h-all208.QkvUht': Permission denied
+> program-name: `./pft.8j1Lo5': Permission denied
+> program-name: `./pft.Vih1fD': Permission denied
+> program-name: `./pft.a8qAPN': Permission denied
+> program-name: `./hsperfdata_ehannon': Permission denied
+> program-name: `./pft.gzYgZC': Permission denied
+> program-name: `./pft.Y19XG9': Permission denied
+> program-name: `./pft.uguNgO': Permission denied
+> program-name: `./pft.TJC5kZ': Permission denied
+> program-name: `./pft.CfLRhs': Permission denied
+> program-name: `./pft.Irb6un': Permission denied
+> program-name: `./pft.PVsu3K': Permission denied
+> program-name: `./pft.3l4zDB': Permission denied
+> program-name: `./pft.rUUSX7': Permission denied
+> program-name: `./pft.enennf': Permission denied
+> program-name: `./pft.ccRr3T': Permission denied
+> program-name: `./pft.n8VMss': Permission denied
+> program-name: `./pft.JQKteq': Permission denied
+> program-name: `./pft.1krJwo': Permission denied
+> program-name: `./h-bethboose.6ahJQq': Permission denied
+> program-name: `./pft.a8eIvM': Permission denied
+> program-name: `./h-kmaguire.RZBVBQ': Permission denied
+> program-name: `./pft.A27ZEe': Permission denied
+> program-name: `./pft.tBQIMX': Permission denied
+> program-name: `./pft.RSXJRy': Permission denied
+> program-name: `./pft.XBaohs': Permission denied
+> program-name: `./pft.2odLD5': Permission denied
+> program-name: `./pft.VrSGWy': Permission denied
+> program-name: `./pft.hh4OOY': Permission denied
+> program-name: `./pft.qXRtyl': Permission denied
+> program-name: `./vmware-root': Permission denied
+> program-name: `./pft.zYdtjQ': Permission denied
+> program-name: `./hsperfdata_cscie10': Permission denied
+> program-name: `./pft.4leJBC': Permission denied
+> program-name: `./pft.vm0lTa': Permission denied
+> program-name: `./pft.i148VO': Permission denied
+> program-name: `./hsperfdata_yrana': Permission denied
+> program-name: `./pft.hNNgK4': Permission denied
+> program-name: `./h-bethboose.lvPNa3': Permission denied
+> program-name: `./pft.cQaXJO': Permission denied
+> program-name: `./pft.JI67HX': Permission denied
+> program-name: `./pft.mQfOWc': Permission denied
+> program-name: `./pft.BvsLa2': Permission denied
+> program-name: `./hsperfdata_ericwong': Permission denied
+> program-name: `./h-vishaldubey.eCnOXf': Permission denied
+> program-name: `./pft.ZwJNaZ': Permission denied
+> program-name: `./pft.k2Susj': Permission denied
+> program-name: `./pft.bmA1if': Permission denied
+> program-name: `./pft.1F0dJG': Permission denied
+> program-name: `./pft.FGrTFK': Permission denied
+> program-name: `./pft.qa33LH': Permission denied
+> program-name: `./pft.dBa5lj': Permission denied
+> program-name: `./pft.wR9n3v': Permission denied
+> program-name: `./h-dkilleffer.enOYHL': Permission denied
+> program-name: `./pft.Pu4fel': Permission denied
+> program-name: `./pft.LhtIYL': Permission denied
+> program-name: `./pft.2zkTxS': Permission denied
+> program-name: `./pft.96ivfW': Permission denied
+> program-name: `./pft.IfVJMG': Permission denied
+> program-name: `./pft.oR8jPw': Permission denied
+> program-name: `./pft.loc3oL': Permission denied
+> program-name: `./pft.65d81R': Permission denied
+> program-name: `./pft.Fl9k4Q': Permission denied
+> program-name: `./tmux-45332': Permission denied
+> program-name: `./pft.UIZppR': Permission denied
+> program-name: `./pft.z3vzli': Permission denied
+> program-name: `./pft.DS61O7': Permission denied
+=================			output from find in 7g.find.err
+			output from pfind in 7g.pfind.err
+
+	Part 8: test if starting node is a file
+	  Test 8a:  find findme.Mto3KB
+		Test 8a..NOT OK
+			 Output diffs shown below.
+			 < is pfind output, > is find output
+0a1
+> findme.Mto3KB
+=================			output from find in 8a.find
+			output from pfind in 8a.pfind
+			 stderr diffs shown below.
+			 < is pfind stderr, > is find stderr
+1d0
+< Cannot open findme.Mto3KB
+=================			output from find in 8a.find.err
+			output from pfind in 8a.pfind.err
+	  Test 8b:  find findme.Mto3KB -type f
+		Test 8b..NOT OK
+			 Output diffs shown below.
+			 < is pfind output, > is find output
+1c1
+< f is printing out
+---
+> findme.Mto3KB
+=================			output from find in 8b.find
+			output from pfind in 8b.pfind
+			 stderr diffs shown below.
+			 < is pfind stderr, > is find stderr
+1d0
+< Cannot open findme.Mto3KB
+=================			output from find in 8b.find.err
+			output from pfind in 8b.pfind.err
+	  Test 8c:  find findme.Mto3KB -type d
+		Test 8c..NOT OK
+			 Output diffs shown below.
+			 < is pfind output, > is find output
+1d0
+< d is printing out
+=================			output from find in 8c.find
+			output from pfind in 8c.pfind
+			 stderr diffs shown below.
+			 < is pfind stderr, > is find stderr
+1d0
+< Cannot open findme.Mto3KB
+=================			output from find in 8c.find.err
+			output from pfind in 8c.pfind.err
+	  Test 8d:  find findme.Mto3KB -name findme.Mto3KB
+		Test 8d..NOT OK
+			 Output diffs shown below.
+			 < is pfind output, > is find output
+0a1
+> findme.Mto3KB
+=================			output from find in 8d.find
+			output from pfind in 8d.pfind
+			 stderr diffs shown below.
+			 < is pfind stderr, > is find stderr
+1d0
+< Cannot open findme.Mto3KB
+=================			output from find in 8d.find.err
+			output from pfind in 8d.pfind.err
+	  Test 8e:  find findme.Mto3KB -name not-findme.Mto3KB
+		Test 8e..NOT OK
+			 stderr diffs shown below.
+			 < is pfind stderr, > is find stderr
+1d0
+< Cannot open findme.Mto3KB
+=================			output from find in 8e.find.err
+			output from pfind in 8e.pfind.err
+
+__________________________tests done________
+One or more tests did not succeed.
+See files in test_results for outputs and comparisons.
+geraldtrotman@ice4:~/cscie28/Projects/project2$ ex[K[Kexit[K[K[K[Kexit
+exit
+
+Script done on Sun 28 Feb 2016 09:11:56 PM EST
